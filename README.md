@@ -1,11 +1,16 @@
 # Hooked: Catch the Big One
 
-A small browser-based fishing game built from scratch with HTML, CSS, and JavaScript.
+A small browser-based fishing game built with HTML, CSS, and JavaScript. The goal is to steer the fishing boat and position the hook so you can catch fish while avoiding the other sea creatures.
 
 ## How to play
-- Open [index.html](index.html) in a browser, or run a local server from this folder.
-- Click the water to cast your line.
-- Catch fish by landing the hook on them before the timer runs out.
+- Open [index.html](index.html) in a browser, or serve the project folder locally.
+- Use the left and right arrow keys to move the boat.
+- Use the up and down arrow keys to raise and lower the hook.
+- When the hook collides with a creature:
+  - Fish add 2 points.
+  - Other creatures such as crabs, octopuses, jellyfish, turtles, squid, and seahorses subtract 2 points.
+- The game ends when your score reaches 10 to win, or -10 to lose.
+- Press the Restart Game button to start a new round.
 
 ## Run locally
 From the project folder, run:
