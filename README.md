@@ -16,7 +16,7 @@ A small browser-based fishing game built with HTML, CSS, and JavaScript. The goa
 From the project folder, run:
 
 ```bash
-python3 -m http.server 8000
+./start_server.sh
 ```
 
-Then open http://127.0.0.1:8000/index.html in your browser.
+Then open http://127.0.0.1:8000/ in your browser.
